@@ -1,0 +1,260 @@
+D:\BSTU\OOP\Furniture_Store\bin\Debug\Furniture_Store.exe.config
+D:\BSTU\OOP\Furniture_Store\bin\Debug\Furniture_Store.exe
+D:\BSTU\OOP\Furniture_Store\bin\Debug\Furniture_Store.pdb
+D:\BSTU\OOP\Furniture_Store\obj\Debug\Theme\MenuButtonTheme.baml
+D:\BSTU\OOP\Furniture_Store\obj\Debug\MainWindow.g.cs
+D:\BSTU\OOP\Furniture_Store\obj\Debug\App.g.cs
+D:\BSTU\OOP\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.cache
+D:\BSTU\OOP\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.lref
+D:\BSTU\OOP\Furniture_Store\obj\Debug\App.baml
+D:\BSTU\OOP\Furniture_Store\obj\Debug\MainWindow.baml
+D:\BSTU\OOP\Furniture_Store\obj\Debug\Furniture_Store.g.resources
+D:\BSTU\OOP\Furniture_Store\obj\Debug\Furniture_Store.Properties.Resources.resources
+D:\BSTU\OOP\Furniture_Store\obj\Debug\Furniture_Store.csproj.GenerateResource.cache
+D:\BSTU\OOP\Furniture_Store\obj\Debug\Furniture_Store.csproj.CoreCompileInputs.cache
+D:\BSTU\OOP\Furniture_Store\obj\Debug\Furniture_Store.exe
+D:\BSTU\OOP\Furniture_Store\obj\Debug\Furniture_Store.pdb
+D:\BSTU\OOP\Furniture_Store\obj\Debug\Theme\TextBoxTheme.baml
+D:\BSTU\OOP\Furniture_Store\obj\Debug\MVVM\View\HomeView.g.cs
+D:\BSTU\OOP\Furniture_Store\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\BSTU\OOP\Furniture_Store\obj\Debug\MVVM\View\HomeView.baml
+D:\BSTU\OOP\Furniture_Store\obj\Debug\MVVM\View\OrdersView.g.cs
+D:\BSTU\OOP\Furniture_Store\obj\Debug\MVVM\View\OrdersView.baml
+D:\BSTU\OOP\Furniture_Store\obj\Debug\MVVM\View\BasketView.g.cs
+D:\BSTU\OOP\Furniture_Store\obj\Debug\MVVM\View\BasketView.baml
+D:\BSTU\OOP\Furniture_Store\obj\Debug\Furniture_Store.csprojAssemblyReference.cache
+D:\BSTU\OOP\Furniture_Store\obj\Debug\MVVM\View\UserView.g.cs
+D:\BSTU\OOP\Furniture_Store\obj\Debug\MVVM\View\UserView.baml
+C:\valik\Furniture_Store\bin\Debug\Furniture_Store.exe.config
+C:\valik\Furniture_Store\bin\Debug\Furniture_Store.exe
+C:\valik\Furniture_Store\bin\Debug\Furniture_Store.pdb
+C:\valik\Furniture_Store\obj\Debug\Furniture_Store.csprojAssemblyReference.cache
+C:\valik\Furniture_Store\obj\Debug\Theme\MenuButtonTheme.baml
+C:\valik\Furniture_Store\obj\Debug\Theme\TextBoxTheme.baml
+C:\valik\Furniture_Store\obj\Debug\MainWindow.g.cs
+C:\valik\Furniture_Store\obj\Debug\MVVM\View\BasketView.g.cs
+C:\valik\Furniture_Store\obj\Debug\MVVM\View\OrdersView.g.cs
+C:\valik\Furniture_Store\obj\Debug\MVVM\View\HomeView.g.cs
+C:\valik\Furniture_Store\obj\Debug\MVVM\View\UserView.g.cs
+C:\valik\Furniture_Store\obj\Debug\App.g.cs
+C:\valik\Furniture_Store\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\valik\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.cache
+C:\valik\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.lref
+C:\valik\Furniture_Store\obj\Debug\App.baml
+C:\valik\Furniture_Store\obj\Debug\MainWindow.baml
+C:\valik\Furniture_Store\obj\Debug\MVVM\View\BasketView.baml
+C:\valik\Furniture_Store\obj\Debug\MVVM\View\OrdersView.baml
+C:\valik\Furniture_Store\obj\Debug\MVVM\View\HomeView.baml
+C:\valik\Furniture_Store\obj\Debug\MVVM\View\UserView.baml
+C:\valik\Furniture_Store\obj\Debug\Furniture_Store.g.resources
+C:\valik\Furniture_Store\obj\Debug\Furniture_Store.Properties.Resources.resources
+C:\valik\Furniture_Store\obj\Debug\Furniture_Store.csproj.GenerateResource.cache
+C:\valik\Furniture_Store\obj\Debug\Furniture_Store.csproj.CoreCompileInputs.cache
+C:\valik\Furniture_Store\obj\Debug\Furniture_Store.exe
+C:\valik\Furniture_Store\obj\Debug\Furniture_Store.pdb
+C:\valik\Furniture_Store\bin\Debug\EntityFramework.dll
+C:\valik\Furniture_Store\bin\Debug\EntityFramework.SqlServer.dll
+C:\valik\Furniture_Store\bin\Debug\EntityFramework.xml
+C:\valik\Furniture_Store\bin\Debug\EntityFramework.SqlServer.xml
+C:\valik\Furniture_Store\obj\Debug\Furniture_Store.csproj.CopyComplete
+C:\valik\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.g.cs
+C:\valik\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.baml
+C:\valik\Furniture_Store\obj\Debug\RegistrationWindow.g.cs
+C:\valik\Furniture_Store\obj\Debug\RegistrationWindow.baml
+C:\valik\Furniture_Store\obj\Debug\ItemUploadWindow.g.cs
+C:\valik\Furniture_Store\obj\Debug\ItemUploadWindow.baml
+D:\Курсач\Версия 3\Furniture_Store\bin\Debug\Furniture_Store.exe.config
+D:\Курсач\Версия 3\Furniture_Store\bin\Debug\Furniture_Store.exe
+D:\Курсач\Версия 3\Furniture_Store\bin\Debug\Furniture_Store.pdb
+D:\Курсач\Версия 3\Furniture_Store\bin\Debug\EntityFramework.dll
+D:\Курсач\Версия 3\Furniture_Store\bin\Debug\EntityFramework.SqlServer.dll
+D:\Курсач\Версия 3\Furniture_Store\bin\Debug\EntityFramework.xml
+D:\Курсач\Версия 3\Furniture_Store\bin\Debug\EntityFramework.SqlServer.xml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Theme\MenuButtonTheme.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Theme\TextBoxTheme.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\ItemUploadWindow.g.cs
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MainWindow.g.cs
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.g.cs
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MVVM\View\BasketView.g.cs
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MVVM\View\OrdersView.g.cs
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MVVM\View\HomeView.g.cs
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MVVM\View\UserView.g.cs
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\RegistrationWindow.g.cs
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\App.g.cs
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.cache
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.lref
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\App.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\ItemUploadWindow.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MainWindow.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MVVM\View\BasketView.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MVVM\View\OrdersView.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MVVM\View\HomeView.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\MVVM\View\UserView.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\RegistrationWindow.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.g.resources
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.Properties.Resources.resources
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.csproj.GenerateResource.cache
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.csproj.CoreCompileInputs.cache
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.csproj.CopyComplete
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.exe
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.pdb
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Theme\ExitButtonTheme.baml
+D:\Курсач\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.csprojAssemblyReference.cache
+C:\New folder (13)\Версия 3\Furniture_Store\bin\Debug\Furniture_Store.exe.config
+C:\New folder (13)\Версия 3\Furniture_Store\bin\Debug\Furniture_Store.exe
+C:\New folder (13)\Версия 3\Furniture_Store\bin\Debug\Furniture_Store.pdb
+C:\New folder (13)\Версия 3\Furniture_Store\bin\Debug\EntityFramework.dll
+C:\New folder (13)\Версия 3\Furniture_Store\bin\Debug\EntityFramework.SqlServer.dll
+C:\New folder (13)\Версия 3\Furniture_Store\bin\Debug\EntityFramework.xml
+C:\New folder (13)\Версия 3\Furniture_Store\bin\Debug\EntityFramework.SqlServer.xml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.csprojAssemblyReference.cache
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Theme\ExitButtonTheme.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Theme\MenuButtonTheme.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Theme\TextBoxTheme.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\ItemUploadWindow.g.cs
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MainWindow.g.cs
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.g.cs
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MVVM\View\BasketView.g.cs
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MVVM\View\OrdersView.g.cs
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MVVM\View\HomeView.g.cs
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MVVM\View\UserView.g.cs
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\RegistrationWindow.g.cs
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\App.g.cs
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.cache
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.lref
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\App.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\ItemUploadWindow.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MainWindow.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MVVM\View\BasketView.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MVVM\View\OrdersView.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MVVM\View\HomeView.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\MVVM\View\UserView.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\RegistrationWindow.baml
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.g.resources
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.Properties.Resources.resources
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.csproj.GenerateResource.cache
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.csproj.CoreCompileInputs.cache
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.csproj.CopyComplete
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.exe
+C:\New folder (13)\Версия 3\Furniture_Store\obj\Debug\Furniture_Store.pdb
+D:\Курсач\Версия 4\Furniture_Store\bin\Debug\Furniture_Store.exe.config
+D:\Курсач\Версия 4\Furniture_Store\bin\Debug\Furniture_Store.exe
+D:\Курсач\Версия 4\Furniture_Store\bin\Debug\Furniture_Store.pdb
+D:\Курсач\Версия 4\Furniture_Store\bin\Debug\EntityFramework.dll
+D:\Курсач\Версия 4\Furniture_Store\bin\Debug\EntityFramework.SqlServer.dll
+D:\Курсач\Версия 4\Furniture_Store\bin\Debug\EntityFramework.xml
+D:\Курсач\Версия 4\Furniture_Store\bin\Debug\EntityFramework.SqlServer.xml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.csprojAssemblyReference.cache
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Theme\ExitButtonTheme.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Theme\MenuButtonTheme.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Theme\TextBoxTheme.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\ItemUploadWindow.g.cs
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MainWindow.g.cs
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.g.cs
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MVVM\View\BasketView.g.cs
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MVVM\View\OrdersView.g.cs
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MVVM\View\HomeView.g.cs
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MVVM\View\UserView.g.cs
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\RegistrationWindow.g.cs
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\App.g.cs
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.cache
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.lref
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\App.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\ItemUploadWindow.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MainWindow.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MVVM\View\BasketView.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MVVM\View\OrdersView.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MVVM\View\HomeView.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\MVVM\View\UserView.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\RegistrationWindow.baml
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.g.resources
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.Properties.Resources.resources
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.csproj.GenerateResource.cache
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.csproj.CoreCompileInputs.cache
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.csproj.CopyComplete
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.exe
+D:\Курсач\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.pdb
+C:\New folder (14)\Версия 4\Furniture_Store\bin\Debug\Furniture_Store.exe.config
+C:\New folder (14)\Версия 4\Furniture_Store\bin\Debug\Furniture_Store.exe
+C:\New folder (14)\Версия 4\Furniture_Store\bin\Debug\Furniture_Store.pdb
+C:\New folder (14)\Версия 4\Furniture_Store\bin\Debug\EntityFramework.dll
+C:\New folder (14)\Версия 4\Furniture_Store\bin\Debug\EntityFramework.SqlServer.dll
+C:\New folder (14)\Версия 4\Furniture_Store\bin\Debug\EntityFramework.xml
+C:\New folder (14)\Версия 4\Furniture_Store\bin\Debug\EntityFramework.SqlServer.xml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.csprojAssemblyReference.cache
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Theme\ExitButtonTheme.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Theme\MenuButtonTheme.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Theme\TextBoxTheme.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\ItemUploadWindow.g.cs
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MainWindow.g.cs
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.g.cs
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MVVM\View\BasketView.g.cs
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MVVM\View\OrdersView.g.cs
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MVVM\View\HomeView.g.cs
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MVVM\View\UserView.g.cs
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\RegistrationWindow.g.cs
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\App.g.cs
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.cache
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.lref
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\App.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\ItemUploadWindow.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MainWindow.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MVVM\View\BasketView.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MVVM\View\OrdersView.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MVVM\View\HomeView.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\MVVM\View\UserView.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\RegistrationWindow.baml
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.g.resources
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.Properties.Resources.resources
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.csproj.GenerateResource.cache
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.csproj.CoreCompileInputs.cache
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.csproj.CopyComplete
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.exe
+C:\New folder (14)\Версия 4\Furniture_Store\obj\Debug\Furniture_Store.pdb
+D:\Курсач\Версия 5\Furniture_Store\bin\Debug\Furniture_Store.exe.config
+D:\Курсач\Версия 5\Furniture_Store\bin\Debug\Furniture_Store.exe
+D:\Курсач\Версия 5\Furniture_Store\bin\Debug\Furniture_Store.pdb
+D:\Курсач\Версия 5\Furniture_Store\bin\Debug\EntityFramework.dll
+D:\Курсач\Версия 5\Furniture_Store\bin\Debug\EntityFramework.SqlServer.dll
+D:\Курсач\Версия 5\Furniture_Store\bin\Debug\EntityFramework.xml
+D:\Курсач\Версия 5\Furniture_Store\bin\Debug\EntityFramework.SqlServer.xml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Furniture_Store.csprojAssemblyReference.cache
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Theme\ExitButtonTheme.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Theme\MenuButtonTheme.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Theme\TextBoxTheme.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\ItemUploadWindow.g.cs
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MainWindow.g.cs
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.g.cs
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MVVM\View\BasketView.g.cs
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MVVM\View\OrdersView.g.cs
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MVVM\View\HomeView.g.cs
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MVVM\View\UserView.g.cs
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\RegistrationWindow.g.cs
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\App.g.cs
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.cache
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Furniture_Store_MarkupCompile.lref
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\App.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\ItemUploadWindow.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MainWindow.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MVVM\View\RegistrationView.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MVVM\View\BasketView.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MVVM\View\OrdersView.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MVVM\View\HomeView.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\MVVM\View\UserView.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\RegistrationWindow.baml
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Furniture_Store.g.resources
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Furniture_Store.Properties.Resources.resources
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Furniture_Store.csproj.GenerateResource.cache
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Furniture_Store.csproj.CoreCompileInputs.cache
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Furniture_Store.csproj.CopyComplete
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Furniture_Store.exe
+D:\Курсач\Версия 5\Furniture_Store\obj\Debug\Furniture_Store.pdb

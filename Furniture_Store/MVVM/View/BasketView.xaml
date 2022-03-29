@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="Furniture_Store.MVVM.View.BasketView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Furniture_Store.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="460" d:DesignWidth="800"
+             Background="#cdffca">
+	<Grid>
+		<ListBox x:Name="itemsList" Margin="0,75,0,0" ItemsSource="{Binding Items}">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<StackPanel  Margin="5">
+						<Label Name="ID" Content="{Binding Path=ID}" Visibility="Hidden"></Label>
+						<Image Width="100" Height="75" Source="{Binding Path=Image}" />
+						<TextBlock FontSize="16" Text="{Binding StringFormat =Name: {0}, Path=Name}" HorizontalAlignment="Center" />
+						<TextBlock FontSize="16" Text="{Binding StringFormat=Price: {0} $, Path=Cost}" HorizontalAlignment="Center" />
+						<TextBlock FontSize="16" Text="{Binding StringFormat=Type: {0}, Path=Item_Type}" HorizontalAlignment="Center" />
+						<TextBlock FontSize="16" Text="{Binding StringFormat=Date Of Add: {0}, Path=Date_Of_Add}" HorizontalAlignment="Center" />
+					</StackPanel>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+		<Button Foreground="White" Background="Green" BorderThickness="0" Content="Make an Order" HorizontalAlignment="Left" Margin="68,15,0,0" VerticalAlignment="Top" Width="110" Height="40" Click="MakeOrder_OnClick">
+			<Button.Resources>
+				<Style TargetType="{x:Type Border}">
+					<Setter Property="CornerRadius" Value="8"/>
+				</Style>
+			</Button.Resources>
+		</Button>
+		<Button Foreground="White" Background="Green" BorderThickness="0" Content="Remove item" HorizontalAlignment="Left" Margin="250,15,0,0" VerticalAlignment="Top" Width="110" Height="40" Click="RemoveItem_OnClick">
+			<Button.Resources>
+				<Style TargetType="{x:Type Border}">
+					<Setter Property="CornerRadius" Value="8"/>
+				</Style>
+			</Button.Resources>
+		</Button>
+		<Label Name="Price" HorizontalAlignment="Left" Margin="486,15,0,0" VerticalAlignment="Top" Height="55" Width="226" FontSize="23">
+			<Label Content="Total Price:"/>
+		</Label>
+	</Grid>
+</UserControl>

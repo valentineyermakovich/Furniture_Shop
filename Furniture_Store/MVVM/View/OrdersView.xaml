@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="Furniture_Store.MVVM.View.OrdersView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Furniture_Store.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="460" d:DesignWidth="800"
+             Background="#ddffe5">
+	<UserControl.Resources>
+		<BooleanToVisibilityConverter x:Key="BoolToVis" />
+	</UserControl.Resources>
+	<Grid Margin="0,34,0,0">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="159*"/>
+			<ColumnDefinition Width="82*"/>
+			<ColumnDefinition Width="559*"/>
+		</Grid.ColumnDefinitions>
+		<ListBox x:Name="itemsList" Margin="0,75,0,0" Grid.ColumnSpan="3">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<StackPanel Margin="5">
+						<Image Width="100" Height="75" Source="{Binding Path=Image}" />
+                        <TextBlock FontSize="16" Visibility="{Binding Path=ApproveVisible,Converter={StaticResource BoolToVis}}" Text="{Binding StringFormat=ID: {0}, Path=ID}" HorizontalAlignment="Center" />
+						<TextBlock FontSize="16" Text="{Binding StringFormat=Order Cost: {0} $, Path=Cost}" HorizontalAlignment="Center" />
+						<TextBlock FontSize="16" Text="{Binding StringFormat=Address: {0}, Path=Address}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Visibility="{Binding Path=ApproveVisible,Converter={StaticResource BoolToVis}}" Text="{Binding StringFormat=Customer ID: {0}, Path=Customer}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Text="{Binding StringFormat=Expected Delivery Date: {0}, Path=Delivery}" HorizontalAlignment="Center" />
+						<TextBlock FontSize="16" Text="{Binding StringFormat=Approved: {0}, Path=Is_Approved}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Visibility="{Binding Path=ApproveVisible,Converter={StaticResource BoolToVis}}" Text="{Binding StringFormat=Phone: {0}, Path=Phone}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Visibility="{Binding Path=ApproveVisible,Converter={StaticResource BoolToVis}}" Text="{Binding StringFormat=E-Mail: {0}, Path=EMail}" HorizontalAlignment="Center" />
+                    </StackPanel>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+		<Button Name="Disapprove" Click="Disapprove_OnClick" Visibility="Hidden" Foreground="White" Background="Red" BorderThickness="0" Content="Disapprove" HorizontalAlignment="Left" Margin="400,20,0,0" VerticalAlignment="Top" Width="139" Height="35" Grid.ColumnSpan="3">
+			<Button.Resources>
+				<Style TargetType="{x:Type Border}">
+					<Setter Property="CornerRadius" Value="8"/>
+				</Style>
+			</Button.Resources>
+		</Button>
+		<Button Name="Approve" Click="Approve_OnClick" Visibility="Hidden" Foreground="White" Background="Green" BorderThickness="0" Content="Approve" HorizontalAlignment="Left" Margin="120,20,0,0" VerticalAlignment="Top" Width="139" Height="35" Grid.ColumnSpan="3">
+			<Button.Resources>
+				<Style TargetType="{x:Type Border}">
+					<Setter Property="CornerRadius" Value="8"/>
+				</Style>
+			</Button.Resources>
+		</Button>
+	</Grid>
+</UserControl>

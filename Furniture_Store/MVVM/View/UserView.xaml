@@ -1,0 +1,90 @@
+﻿<UserControl x:Class="Furniture_Store.MVVM.View.UserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Furniture_Store.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Background="#6dff8b">
+    <Grid>
+        <GroupBox x:Name="LoginBox"
+				  BorderThickness="2" Header="User login form" HorizontalAlignment="Left" Height="250" Margin="215,120,0,0" VerticalAlignment="Top" Width="324">
+            <StackPanel Margin="0,0,-12,-23">
+                <Button Foreground="White" Background="Green" BorderThickness="0" Content="Register" Height="29" Margin="100,10,109,0" Click="Registration_Click">
+                    <Button.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="8"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Label x:Name="ErrorMessage" Visibility="Hidden"  HorizontalAlignment="Center" Foreground="Red" Content="Wrong Login or Password"/>
+                <TextBox x:Name="Login" Height="23" TextWrapping="Wrap" Margin="73,20" TextAlignment="Center" PreviewTextInput="Login_PreviewTextInput">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="7"/>
+                        </Style>
+                    </TextBox.Resources>
+                    <TextBox.Style>
+                        <Style TargetType="{x:Type TextBox}">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Text, RelativeSource={RelativeSource Self}}" Value="">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <VisualBrush Stretch="None">
+                                                <VisualBrush.Visual>
+                                                    <TextBlock Text="Login" Foreground="Gray"/>
+                                                </VisualBrush.Visual>
+                                            </VisualBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Text, RelativeSource={RelativeSource Self}}" Value="{x:Null}">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <VisualBrush Stretch="None">
+                                                <VisualBrush.Visual>
+                                                    <TextBlock Text="Login" Foreground="Gray"/>
+                                                </VisualBrush.Visual>
+                                            </VisualBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding IsFocused, RelativeSource={RelativeSource Self}}" Value="True">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <VisualBrush Stretch="None"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBox.Style>
+                </TextBox>
+                <PasswordBox x:Name="Password" Height="25" Margin="73,0" HorizontalContentAlignment="Center"/>
+                <Button Foreground="White" Background="Green" BorderThickness="0" Content="Login" HorizontalAlignment="Left" Margin="100,20,0,20" VerticalAlignment="Top" Width="115" Click="Login_Button_Click" Height="44">
+                    <Button.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="8"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="UserBox" Visibility="Hidden"
+				BorderThickness="2" Header="User form" HorizontalAlignment="Left" Height="191" Margin="215,133,0,0" VerticalAlignment="Top" Width="316">
+            <StackPanel>
+                <TextBlock x:Name="UserName" Margin="109,0,0,0"></TextBlock>
+                <TextBlock x:Name="Role" Margin="109,25,100,0"></TextBlock>
+                <Button Foreground="White" Background="Green" BorderThickness="0" Content="Logout" HorizontalAlignment="Left" Margin="100,20,0,20" VerticalAlignment="Top" Width="115" Height="44" Click="Logout_Button_Click">
+                    <Button.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="8"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </StackPanel>
+        </GroupBox>
+
+    </Grid>
+</UserControl>

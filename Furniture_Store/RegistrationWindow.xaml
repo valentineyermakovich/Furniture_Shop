@@ -1,0 +1,244 @@
+﻿<Window x:Class="Furniture_Store.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Furniture_Store"
+        mc:Ignorable="d"
+        Title="Registration" Height="450" Width="800">
+	<Grid>
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#FF75F191" Offset="0"/>
+				<GradientStop Color="#FF2EBA44" Offset="1"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<Label x:Name="ErrorMessage" Visibility="Hidden"  HorizontalAlignment="Center" Foreground="Red" Content="Wrong Data"/>
+		<TextBox x:Name="Login" TextWrapping="Wrap" Text="{Binding Path=Login}" Margin="296.8,51,287,336" TextAlignment="Center" Width="200" PreviewTextInput="Login_PreviewTextInput">
+			<TextBox.Resources>
+				<Style TargetType="Border">
+					<Setter Property="CornerRadius" Value="7"/>
+				</Style>
+			</TextBox.Resources>
+			<TextBox.Style>
+				<Style TargetType="TextBox">
+					<Style.Triggers>
+						<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="">
+							<Setter Property="Background">
+								<Setter.Value>
+									<VisualBrush Stretch="None">
+										<VisualBrush.Visual>
+											<TextBlock Text="Enter your Login" Foreground="Gray"/>
+										</VisualBrush.Visual>
+									</VisualBrush>
+								</Setter.Value>
+							</Setter>
+						</DataTrigger>
+						<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="{x:Null}">
+							<Setter Property="Background">
+								<Setter.Value>
+									<VisualBrush Stretch="None">
+										<VisualBrush.Visual>
+											<TextBlock Text="Enter your Login" Foreground="Gray"/>
+										</VisualBrush.Visual>
+									</VisualBrush>
+								</Setter.Value>
+							</Setter>
+						</DataTrigger>
+						<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsFocused}" Value="True">
+							<Setter Property="Background">
+								<Setter.Value>
+									<VisualBrush Stretch="None">
+									</VisualBrush>
+								</Setter.Value>
+							</Setter>
+						</DataTrigger>
+					</Style.Triggers>
+				</Style>
+			</TextBox.Style>
+		</TextBox>
+		<PasswordBox x:Name="Password" Margin="296.8,190,296.8,205" HorizontalContentAlignment="Center" Width="200"/>
+		<Button Foreground="White" Background="Green" BorderThickness="0" Content="Register" HorizontalAlignment="Left" Margin="330,367,0,0" VerticalAlignment="Top" Width="104" Click="Register_Click" Height="43">
+			<Button.Resources>
+				<Style TargetType="{x:Type Border}">
+					<Setter Property="CornerRadius" Value="8"/>
+				</Style>
+			</Button.Resources>
+		</Button>
+		<TextBox x:Name="UserName" HorizontalAlignment="Left" Height="36" Margin="297,95,0,0" TextWrapping="Wrap" Text="{Binding Path=Name}" VerticalAlignment="Top" Width="200" TextChanged="TextBox_TextChanged" HorizontalContentAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput">
+			<TextBox.Resources>
+				<Style TargetType="Border">
+					<Setter Property="CornerRadius" Value="7"/>
+				</Style>
+			</TextBox.Resources>
+			<TextBox.Style>
+				<Style TargetType="TextBox">
+					<Style.Triggers>
+						<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="">
+							<Setter Property="Background">
+								<Setter.Value>
+									<VisualBrush Stretch="None">
+										<VisualBrush.Visual>
+											<TextBlock Text="Enter your name" Foreground="Gray"/>
+										</VisualBrush.Visual>
+									</VisualBrush>
+								</Setter.Value>
+							</Setter>
+						</DataTrigger>
+						<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="{x:Null}">
+							<Setter Property="Background">
+								<Setter.Value>
+									<VisualBrush Stretch="None">
+										<VisualBrush.Visual>
+											<TextBlock Text="Enter your name" Foreground="Gray"/>
+										</VisualBrush.Visual>
+									</VisualBrush>
+								</Setter.Value>
+							</Setter>
+						</DataTrigger>
+						<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsFocused}" Value="True">
+							<Setter Property="Background">
+								<Setter.Value>
+									<VisualBrush Stretch="None">
+									</VisualBrush>
+								</Setter.Value>
+							</Setter>
+						</DataTrigger>
+					</Style.Triggers>
+				</Style>
+			</TextBox.Style>
+		</TextBox>
+		<TextBox x:Name="Address" HorizontalAlignment="Left" Height="34" Margin="297,142,0,0" TextWrapping="Wrap" Text="{Binding Path=Address}" VerticalAlignment="Top" Width="200" HorizontalContentAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput_1">
+			<TextBox.Resources>
+				<Style TargetType="Border">
+					<Setter Property="CornerRadius" Value="7"/>
+				</Style>
+			</TextBox.Resources>
+			<TextBox.Style>
+				<Style TargetType="TextBox">
+					<Style.Triggers>
+						<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="">
+							<Setter Property="Background">
+								<Setter.Value>
+									<VisualBrush Stretch="None">
+										<VisualBrush.Visual>
+											<TextBlock Text="Enter your home address" Foreground="Gray"/>
+										</VisualBrush.Visual>
+									</VisualBrush>
+								</Setter.Value>
+							</Setter>
+						</DataTrigger>
+						<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="{x:Null}">
+							<Setter Property="Background">
+								<Setter.Value>
+									<VisualBrush Stretch="None">
+										<VisualBrush.Visual>
+											<TextBlock Text="Enter your home address" Foreground="Gray"/>
+										</VisualBrush.Visual>
+									</VisualBrush>
+								</Setter.Value>
+							</Setter>
+						</DataTrigger>
+						<DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsFocused}" Value="True">
+							<Setter Property="Background">
+								<Setter.Value>
+									<VisualBrush Stretch="None">
+									</VisualBrush>
+								</Setter.Value>
+							</Setter>
+						</DataTrigger>
+					</Style.Triggers>
+				</Style>
+			</TextBox.Style>
+		</TextBox>
+		<Label Content="Password" HorizontalAlignment="Left" Margin="233,189,0,0" VerticalAlignment="Top" Height="26" RenderTransformOrigin="0.304,0.554"/>
+		<CheckBox Content="Is Admin" HorizontalAlignment="Left" Margin="350,329,0,0" VerticalAlignment="Top" Width="84" IsChecked="{Binding Path=Role}"/>
+        <TextBox x:Name="Phone" HorizontalAlignment="Left" Height="23" Margin="297,239,0,0" TextWrapping="Wrap" Text="{Binding Path=Phone_Number}" VerticalAlignment="Top" Width="200" PreviewTextInput="Phone_PreviewTextInput" HorizontalContentAlignment="Center">
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </TextBox.Resources>
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <VisualBrush Stretch="None">
+                                        <VisualBrush.Visual>
+                                            <TextBlock Text="Phone number" Foreground="Gray"/>
+                                        </VisualBrush.Visual>
+                                    </VisualBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="{x:Null}">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <VisualBrush Stretch="None">
+                                        <VisualBrush.Visual>
+                                            <TextBlock Text="Phone-number" Foreground="Gray"/>
+                                        </VisualBrush.Visual>
+                                    </VisualBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsFocused}" Value="True">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <VisualBrush Stretch="None">
+                                    </VisualBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        <TextBox x:Name="EMail" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="22" Margin="297,279,0,0" TextWrapping="Wrap" Text="{Binding Path=Mail}" VerticalAlignment="Top" Width="200" PreviewTextInput="EMail_PreviewTextInput">
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </TextBox.Resources>
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <VisualBrush Stretch="None">
+                                        <VisualBrush.Visual>
+                                            <TextBlock Text="E-Mail" Foreground="Gray"/>
+                                        </VisualBrush.Visual>
+                                    </VisualBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="{x:Null}">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <VisualBrush Stretch="None">
+                                        <VisualBrush.Visual>
+                                            <TextBlock Text="E-Mail" Foreground="Gray"/>
+                                        </VisualBrush.Visual>
+                                    </VisualBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsFocused}" Value="True">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <VisualBrush Stretch="None">
+                                    </VisualBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+		
+	</Grid>
+</Window>
